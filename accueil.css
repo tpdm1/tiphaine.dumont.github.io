@@ -62,6 +62,7 @@
 /****************************************************************************************************/
 
 
+
 html{
     height: 100%;
     overflow : auto;
@@ -153,9 +154,16 @@ span{
 
 #email
 {
-    margin-top: 33%;
+    margin-top: 28%;
     position: fixed;
-    margin-left: -7%;
+    margin-left: -8%;
+}
+
+#linkedin-et-cv
+{
+    margin-top: 10%;
+    position: fixed;
+    margin-left: -8%;
 }
 
 section{
@@ -703,15 +711,15 @@ div{
 }
 
 
-/***Logos enseirb et linked + liens***/
-#photo_enseirb
+/***Logos  JURISTE NTIC - APPRENTI DPO***/
+#icone-juriste
 {
    display: flex;
     flex-direction: row;
     align-items: baseline;
     margin-left: 40%;
     padding-top:0.5%; 
-    height: 50%;
+   
 }
 
 
@@ -995,6 +1003,4 @@ div{
     font-size: 12px;
     color: white;
 }
- 
-
 
