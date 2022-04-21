@@ -52,16 +52,16 @@ body{
 
 
 .resume{
-	width: 800px;
+	width: 1100px;
 	background: #fff;
-	margin: 25px auto;
+	margin: 10px auto;
 	display: flex;
 }
 
 .left{
 	background: #292b2f;
 	width: 250px;
-	padding: 0 20px;
+	padding: 20px;
 }
 
 .right{
@@ -190,6 +190,7 @@ body{
 	padding: 15px 30px;
 	color: #fff;
 	height: 240px;
+
 }
 
 .header .name{
@@ -305,11 +306,8 @@ body{
   float: left;
 }
 
-
-
 .menuu {
   padding: 2rem;
-  
   background-image : url('banner.jpg');
 }
 
