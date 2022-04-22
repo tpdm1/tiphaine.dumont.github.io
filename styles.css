@@ -32,7 +32,7 @@ body{
 }
 
 .right{
-	width: calc(100% - 250px);
+	width: calc(110% - 250px);
 }
 
 .left .img_holder{
