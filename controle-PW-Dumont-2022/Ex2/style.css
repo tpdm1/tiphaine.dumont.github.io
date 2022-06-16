@@ -193,7 +193,6 @@ nav > ul > li:hover > a{
 
 /* Section 1 */
 #resume {
-  background-image: url(./img/hero-bg.png);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -256,4 +255,254 @@ nav > ul > li:hover > a{
 }
 
 /* End Section 1*/
+
+
+
+
+/* Chapitre 1 Section */
+#chapitre1 .chapitre {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#chapitre1 .chapitre-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#chapitre1 .chapitre-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#chapitre1 .chapitre-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#chapitre1 .chapitre-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.9;
+  z-index: -1;
+}
+#chapitre1 .chapitre-bottom .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+#chapitre1 .chapitre-item h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#chapitre1 .chapitre-item p {
+  color: white;
+  text-align: left;
+}
+/* End Chapitre 1 Section */
+
+
+/* Chapitre 2 Section */
+#chapitre2 .chapitre {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#chapitre2 .chapitre-top {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#chapitre2 .chapitre-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#chapitre2 .chapitre-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#chapitre2 .chapitre-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.9;
+  z-index: -1;
+}
+#chapitre2 .chapitre-bottom .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+#chapitre2 .chapitre2-item h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#chapitre2 .chapitre-item p {
+  color: white;
+  text-align: left;
+}
+/* End Chapitre2 Section */
+
+
+
+
+/* Matières Section */
+#matieres .matieres {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+#matieres .col-left {
+  width: 250px;
+  height: 360px;
+}
+#matieres .col-right {
+  width: 100%;
+}
+#matieres .col-right h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
+}
+#matieres .col-right p {
+  margin-bottom: 20px;
+}
+#matieres .col-right .cta {
+  color: black;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+
+/* End Matières Section */
+
+
+
+
+
+
+/* Footer */
+#footer {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.footer-logos i {
+  text-decoration: none;
+  color: #F8F0EC;
+  font-size: 6rem;
+}
+
+.footer-logos i:hover {
+  color: #333231;
+}
+
+.footer-image {
+  padding: 1rem;
+  float: left;
+}
+
+/* End Footer */
+
+
+
+
+
+/* Keyframes */
+@keyframes hamburger_puls {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+@keyframes text_reveal_box {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes text_reveal {
+  100% {
+    color: white;
+  }
+}
+@keyframes text_reveal_name {
+  100% {
+    color: crimson;
+    font-weight: 500;
+  }
+}
+/* End Keyframes */
+
+
+
+
 
