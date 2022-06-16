@@ -51,44 +51,30 @@ p {
     border: 1.5px dashed black;
 }
 
-
-/*Left Section*/
-
-.div_left {
-    padding: .5rem;
+.div_middle_lower {
     background-color: rgb(212, 212, 212);
-    margin-left: 1rem;
-    margin-top: 1rem;
+    border-bottom: 1px solid;
+}
+
+.h1_middle_lower {
+    background-color: rgb(212, 212, 212);
     width: 25%;
-}
-
-.p_left {
     text-align: right;
-}
-
-/* Lower Section*/
-
-.div_lower {
-    width: 80vw;
-    margin: 0 auto;
-    margin-top: 4rem;
-    padding: .5rem;
-    background-color: rgb(212, 212, 212);
-    border-right: solid 1px black;
-    border-left: solid 1px black;
-}
-
-.titre_lower {
-    text-align: center;
     font-style: italic;
-    background-color: rgb(240, 240, 240);
+    float: right;
+    padding-right: 1rem;
 }
 
-.paragraphe_lower {
+.p_middle_lower {
+    clear: right;
     margin: 0 auto;
-    text-align: center;
-    width: 50%;
-}
+    padding: .5rem;
+    width: 66%;
+    text-align: justify;
+    border-left: solid;
+    border-right: solid;
+   
+
 
 
 
