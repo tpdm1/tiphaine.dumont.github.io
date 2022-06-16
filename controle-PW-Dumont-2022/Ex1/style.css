@@ -51,6 +51,16 @@ p {
     border: 1.5px dashed black;
 }
 
+.div_middle_high{
+  border-top: 1px solid;
+    background-color: rgb(212, 212, 212);  
+}
+
+h1_middle_high{
+    width: 50%;
+    margin-left: 50%;
+}
+
 .div_middle_lower {
     background-color: rgb(212, 212, 212);
     border-bottom: 1px solid;
@@ -73,6 +83,8 @@ p {
     text-align: justify;
     border-left: solid;
     border-right: solid;
+
+
    
 
 
