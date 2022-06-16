@@ -3,6 +3,7 @@
 h1 {
     background-color: rgb(240, 240, 240);   
     text-align: center;
+    padding: .5rem;
 }
 
 .left {
@@ -48,15 +49,6 @@ p {
     margin-top: 3rem;
 }
 
-
-.p_left::first-letter {
-    float: left;
-    font-size: 7rem;
-    font-weight: bold;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-}
 
 /* Middle Section*/
 
@@ -110,5 +102,28 @@ p {
     line-height: 35px;
 }
 
+/*Lower Section*/
+
+.div_lower {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: .5rem;
+    background-color: rgb(212, 212, 212);
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+.titre_lower {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(240, 240, 240);
+}
+
+.p_lower {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
 
 
